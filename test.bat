@@ -2,4 +2,4 @@
 
 echo steps:
 echo   - command: "echo yes"
-echo   - trigger: Triggered
+echo   - trigger: triggered
