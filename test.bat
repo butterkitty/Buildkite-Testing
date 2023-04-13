@@ -1,5 +1,4 @@
 @echo off
 
-echo "steps:"
-echo:
-echo ^"  - command: "echo yes"^"
+echo steps:
+echo   - command: "echo yes"
