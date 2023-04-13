@@ -1,4 +1,6 @@
 @echo off
 
 echo steps:
-echo   - command: "test2.bat | buildkite-agent pipeline upload"
+echo   - command: "echo yes"
+echo   - trigger: triggered
+echo     async: true
