@@ -12,4 +12,4 @@ function inline_link {
   printf '\033]1339;%s\a\n' "$LINK"
 }
 
-inline_link "https://buildkite.com/\%20" "test"
+inline_link 'https://buildkite.com/%20' "test"
