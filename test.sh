@@ -11,4 +11,3 @@ function inline_link {
 
   printf '\033]1339;%s\a\n' "$LINK"
 }
-   (build.pull_request.draft == false && (build.pull_request.base_branch == "dev" || build.pull_request.base_branch == "prod")) || build.message =~ /Merge pull request/
