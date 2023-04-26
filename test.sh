@@ -11,4 +11,4 @@ function inline_link {
 
   printf '\033]1339;%s\a\n' "$LINK"
 }
- 
+   
