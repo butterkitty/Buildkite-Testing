@@ -2,10 +2,10 @@
 
 set -euo pipefail
 
-apt update
-apt install -y git
+apk update
+apk install -y git
 
-git clone https://github.com/buildkite/agent-stack-k8s.git
+#git clone https://github.com/buildkite/agent-stack-k8s.git
 
 
 #NODE_VERSION=v18.16.0
