@@ -2,6 +2,7 @@
 
 set -euo pipefail
 
+apt update
 apt install -y git
 
 git clone https://github.com/buildkite/agent-stack-k8s.git
