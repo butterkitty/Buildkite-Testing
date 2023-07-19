@@ -10,8 +10,8 @@ echo "steps:"
 #fi
 
 
-echo " - command: \"echo Deploy!\""
-echo "   label: \":rocket:\""
+#echo " - command: \"echo Deploy!\""
+#echo "   label: \":rocket:\""
 
 #git clone https://github.com/buildkite/agent-stack-k8s.git
 
