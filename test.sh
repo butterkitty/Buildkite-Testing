@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu
+
 echo "steps:"
 #changes_detected=$(git diff origin/main --name-only | grep infra/)
 
