@@ -3,11 +3,11 @@
 set -euo pipefail
 
 echo "steps:"
-changes_detected=$(git diff origin/main --name-only | grep infra/)
+#changes_detected=$(git diff origin/main --name-only | grep infra/)
 
-if [ -z "${changes_detected}" ]; then
-  exit 0
-fi
+#if [ -z "${changes_detected}" ]; then
+#  exit 0
+#fi
 
 
 echo " - command: \"echo Deploy!\""
