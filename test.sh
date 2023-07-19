@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -euo pipefail
-
 echo "steps:"
 #changes_detected=$(git diff origin/main --name-only | grep infra/)
 
