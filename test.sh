@@ -2,8 +2,16 @@
 
 set -euo pipefail
 
-apk update
-apk install -y git
+echo "steps:"
+changes_detected=$(git diff origin/main --name-only | grep infra/)
+
+if [ -z "${changes_detected}" ]; then
+  exit 0
+fi
+
+
+echo " - command: \"echo Deploy!\""
+echo "   label: \":rocket:\""
 
 #git clone https://github.com/buildkite/agent-stack-k8s.git
 
